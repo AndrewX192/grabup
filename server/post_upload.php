@@ -14,7 +14,7 @@
 // === CONFIGURATION OPTIONS ===
 
 $allowedIPAdresses = array(
-    '-',
+    '198.51.100.5',
 );
 
 $allowedFileTypes = array(
