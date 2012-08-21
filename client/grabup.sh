@@ -46,6 +46,8 @@ if $SHORTENURL; then
     URL=`curl $URL`
 fi
 
-# 
+# copy to clipboard
 echo "$URL" | xclip
+
+# notifications
 notify-send "Your screenshot has now been uploaded to $URL"
